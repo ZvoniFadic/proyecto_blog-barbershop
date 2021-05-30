@@ -5,8 +5,13 @@
     margin: 0;
 }
 
+.pagination_list {
+    padding: 0;
+}
+
 .page-item {
-    border: 0.5px solid $light-gray;
+    border: 1px solid $light-gray;
+    font-size: $pagination-normal-size;
 
     &:first-child {
     border-top-left-radius: 50px ;
@@ -16,8 +21,13 @@
     &:last-child {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-        }
-   
+        }  
+}
+
+@media (max-width: 768px) {
+    .page-item {
+        font-size: $pagination-small-size;
+    }
 }
 
 .page-link {
@@ -49,4 +59,3 @@
     background-color: $nickel !important;
     border-color: $nickel !important;
 }
-

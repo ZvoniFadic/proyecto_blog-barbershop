@@ -10,8 +10,6 @@ $eerie-black: #121619;
 $raisin-black: #222323;
 $nickel: #6c6e70;
 
-// fonts
-
 // font family
 $roboto: 'Roboto', sans-serif;
 $playfair-display: 'Playfair Display', serif;
@@ -32,3 +30,25 @@ $small: 12px;
 // font style
 
 $italic: italic;
+
+// buttons state
+
+$button-normal-state: $nickel;
+$button-hover-state: $light-gray;
+$button-focus-state: $light-gray;
+
+// links state
+
+$links-normal-state: $light-gray;
+$links-hover-state: $nickel;
+$links-focus-state: $platinum;
+
+// pagination size
+
+$pagination-normal-size: $medium;
+$pagination-small-size: $small;
+
+// thumbnails size
+
+$thumbnail-normal-size: 100%;
+$thumbnail-small-size: 40%;

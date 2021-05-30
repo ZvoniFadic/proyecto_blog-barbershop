@@ -4,7 +4,8 @@
     background-color: $eerie-black;
     
     &_logo {
-    width: 100px;
+    width: 78px;
+    margin-left: 1em;
     }
 
     &_icon-color {
@@ -27,9 +28,10 @@
     
     .navbar {
         padding-bottom: 1em;
+        padding-left: 1.5em;
 
         &_logo {
-        width: 60px;
+        width: 65px;
         }
     }
 }

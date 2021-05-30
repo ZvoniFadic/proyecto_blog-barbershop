@@ -1,5 +1,9 @@
 // main style
 
+.main {
+    margin-bottom: 0;
+}
+
 // blog section
 
 .blog {
@@ -51,34 +55,40 @@
     }
     &_img {
         border-radius: 200px;
+        width: $thumbnail-normal-size;
     }
     &_links {
-        color: $light-gray;
+        color: $links-normal-state;
         margin: 0;
         font-size: $large;
         text-align: left;
-       
+        text-decoration: none;
+        
         &:hover { 
-            color: $nickel; 
+            color: $links-hover-state; 
         }  
         &:active {
-            color: $platinum;
+            color: $links-focus-state
         } 
     }
 }
 
+.about_body a {
+    text-decoration: none;
+    }
+
 @media (max-width: 768px) {
     
     .about_img {
-        width: 40%;
+        width: $thumbnail-small-size;
     }
+    .about_body a {
+        text-decoration: none;
+        }
     .about_links {
-        text-align: center;   
+        text-align: center;  
     }
     .about_title {
         text-align: center;
     }
 }
-
-
-

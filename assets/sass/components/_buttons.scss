@@ -2,19 +2,19 @@
 
 .blog_button-medium-size {
 
-    background-color: $nickel;
+    background-color: $button-normal-state;
     border-radius: 100px;
     font-size: $large;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 
     &:hover { 
-        background-color: $platinum; 
+        background-color: $button-hover-state; 
         color: $white; 
     }  
     &:focus {
-        background-color: $nickel;
-        border-color: $platinum;
+        background-color: $button-normal-state;
+        border: 3px solid $button-focus-state;
     }  
 }
 
