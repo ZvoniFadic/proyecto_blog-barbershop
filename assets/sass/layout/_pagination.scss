@@ -1,0 +1,52 @@
+// pagination style
+
+.pagination_container {
+    background-color: $platinum;
+    margin: 0;
+}
+
+.page-item {
+    border: 0.5px solid $light-gray;
+
+    &:first-child {
+    border-top-left-radius: 50px ;
+    border-bottom-left-radius: 50px;
+        }
+
+    &:last-child {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+        }
+   
+}
+
+.page-link {
+
+    background-color: $white;
+    color: $nickel;
+
+    &:hover {
+        background-color: $white;
+        color: $light-gray;
+       }
+    &:focus {
+        border: 0;
+    }
+}
+
+.link_anterior {
+   border-top-left-radius: 50px !important;
+   border-bottom-left-radius: 50px !important;
+   padding-left: 1em;
+}
+
+.link_siguiente {
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+}
+
+.page-item_active {
+    background-color: $nickel !important;
+    border-color: $nickel !important;
+}
+

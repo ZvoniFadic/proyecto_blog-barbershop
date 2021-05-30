@@ -1,0 +1,84 @@
+// main style
+
+// blog section
+
+.blog {
+
+    color: $nickel;
+    width: 90%;
+    text-align: left;
+    display: flex; 
+    flex-direction: column; 
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+    &_text {
+        line-height: 3em;
+        padding-top: 2em;
+        font-size: $medium;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .blog_text {
+        font-size: $small;
+        padding-top: 1em;
+    }
+
+    .blog_button-position {
+        text-align: center;
+    }
+}
+
+
+// about section
+
+.about {
+    padding-bottom: 2em;
+
+    &_title {
+        margin: 0;
+        font-family: $playfair-display;
+        color: $eerie-black ;
+        font-style: italic;
+        font-size: $x-large;
+        font-weight: $playfair-black-italic;
+    }
+    &_text {
+        color: $nickel;
+        line-height: 2.5em;
+    }
+    &_img {
+        border-radius: 200px;
+    }
+    &_links {
+        color: $light-gray;
+        margin: 0;
+        font-size: $large;
+        text-align: left;
+       
+        &:hover { 
+            color: $nickel; 
+        }  
+        &:active {
+            color: $platinum;
+        } 
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .about_img {
+        width: 40%;
+    }
+    .about_links {
+        text-align: center;   
+    }
+    .about_title {
+        text-align: center;
+    }
+}
+
+
+

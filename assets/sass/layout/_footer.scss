@@ -1,0 +1,12 @@
+// footer style
+
+.footer {
+    background-color: $eerie-black;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+    &_logo {
+    width: 150px;
+    }
+}

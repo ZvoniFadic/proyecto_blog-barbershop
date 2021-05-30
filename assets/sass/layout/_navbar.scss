@@ -1,0 +1,35 @@
+// navbar style
+
+.navbar {
+    background-color: $eerie-black;
+    
+    &_logo {
+    width: 100px;
+    }
+
+    &_icon-color {
+    color: $white;
+    }
+}
+    
+.nav-link {
+    color: $white;
+    &:hover {
+    color: $nickel;
+    }
+}
+
+.active {
+    color: $nickel;
+}
+
+@media (max-width: 768px) {
+    
+    .navbar {
+        padding-bottom: 1em;
+
+        &_logo {
+        width: 60px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+// buttons style
+
+.blog_button-medium-size {
+
+    background-color: $nickel;
+    border-radius: 100px;
+    font-size: $large;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    &:hover { 
+        background-color: $platinum; 
+        color: $white; 
+    }  
+    &:focus {
+        background-color: $nickel;
+        border-color: $platinum;
+    }  
+}
+
+@media (max-width: 768px) {
+    
+    .blog_button-medium-size {
+        font-size: $small;
+    }
+}

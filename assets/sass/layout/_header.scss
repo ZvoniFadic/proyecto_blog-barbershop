@@ -1,0 +1,55 @@
+// header style
+
+.header {
+    background-image: url("/assets/img/post-image.jpg");
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &_container {
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+    &_title {
+        color: $white;
+        text-align: center;
+        font-family: $playfair-display;
+        font-weight: $playfair-black-italic;
+        font-style: $italic;
+        font-size: $xx-large;
+    }
+    &_icon {
+        padding-top: 2.7em;
+    }
+    &_icon-color {
+        color: $white;
+
+        &:hover {
+            color: $nickel;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .header {
+        height: 80vh;
+
+        &_title {
+            font-size: $x-large;
+            padding-left: 1.6em;
+            padding-right: 1.6em;
+        }
+        &_container {
+            margin-top: 1.3em;
+        }
+        &_icon {
+            padding-top: 1em;
+        }
+    }
+}
